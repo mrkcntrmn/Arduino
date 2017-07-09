@@ -1,5 +1,5 @@
 //Uploaded 7-3-17
-
+//
 
 long steps = 0;
 
@@ -12,10 +12,12 @@ int pitch = 1150;
 boolean reverse = true  ;
 
 void setup() {
+
   // put your setup code here, to run once:
 /*Code from http://www.schmalzhaus.com/EasyDriver/Examples/Ea... */
 
- // Record the number of steps we've taken void setup() {
+// Record the number of steps we've taken void setup() {
+
 Serial.begin(9600);
 
 pinMode(4, INPUT);  
